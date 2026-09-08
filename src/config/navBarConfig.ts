@@ -121,9 +121,9 @@ const defaultNavBarConfig: NavBarConfig = {
 		LinkPresets.Archive,
 		LinkPresets.Friends,
 		LinkPresets.Moments,
-		LinkPresets.Anime,
+		// LinkPresets.Anime,
 		LinkPresets.Compass,
-		LinkPresets.Albums,
+		// LinkPresets.Albums,
 		{
 			name: i18n(I18nKey.more),
 			icon: "material-symbols:apps-rounded",

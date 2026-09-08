@@ -38,44 +38,44 @@ export interface CompassShelf {
 export const compassData: CompassShelf[] = [
 	{
 		key: "dev",
-		name: "Development",
+		name: "开发",
 		icon: "material-symbols:code-rounded",
-		blurb: "Sites I keep open while writing code",
+		blurb: "写代码时我一直查阅的网站",
 		entries: [
 			{
 				label: "GitHub",
 				href: "https://github.com",
-				note: "Code hosting & collaboration",
+				note: "代码托管与协作",
 				icon: "fa6-brands:github",
 			},
 			{
 				label: "MDN",
 				href: "https://developer.mozilla.org",
-				note: "Authoritative web docs",
+				note: "Web 标准文档",
 				icon: "material-symbols:menu-book-rounded",
 			},
 			{
 				label: "Stack Overflow",
 				href: "https://stackoverflow.com",
-				note: "Q&A and debugging",
+				note: "讨论专业计算机技术社区",
 			},
 		],
 	},
 	{
 		key: "design",
-		name: "Design",
+		name: "设计",
 		icon: "material-symbols:palette-outline-rounded",
 		blurb: "Colors, icons and inspiration",
 		entries: [
 			{
 				label: "Iconify",
 				href: "https://icon-sets.iconify.design",
-				note: "Searchable open-source icon sets",
+				note: "开源图标查询网站",
 			},
 			{
 				label: "Material Symbols",
 				href: "https://fonts.google.com/icons",
-				note: "Official M3 icon set",
+				note: "官方的 Meterial 3 图标集",
 				icon: "material-symbols:star-rounded",
 			},
 			{
@@ -87,7 +87,7 @@ export const compassData: CompassShelf[] = [
 	},
 	{
 		key: "tools",
-		name: "Tools",
+		name: "工具",
 		icon: "material-symbols:build-outline-rounded",
 		entries: [
 			{
@@ -104,7 +104,7 @@ export const compassData: CompassShelf[] = [
 	},
 	{
 		key: "reads",
-		name: "Reading",
+		name: "阅读",
 		icon: "material-symbols:auto-stories-outline-rounded",
 		entries: [
 			{ label: "Hacker News", href: "https://news.ycombinator.com" },

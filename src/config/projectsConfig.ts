@@ -24,6 +24,11 @@ export const projectsConfig: ProjectsConfig = withUserConfig("projects", {
 			label: "Android",
 			icon: "material-symbols:android-rounded",
 		},
+		{
+			key: "desktop",
+			label: "桌面程序",
+			icon: "material-symbols:desktop-windows",
+		},
 	],
 	// disabledKeys: [],
 });
