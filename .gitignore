@@ -9,6 +9,7 @@ Shirone-Content/
 
 # generated types
 .astro/
+*.code-workspace
 
 # dependencies
 node_modules/
